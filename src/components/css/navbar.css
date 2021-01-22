@@ -1,0 +1,13 @@
+@import '../../App.css';
+
+.head-nav {
+  background-color: var(--clr-dark);
+}
+
+.head-link {
+  color: var(--clr-light) !important;
+}
+
+.navbar-brand {
+  color: var(--clr-light) !important;
+}

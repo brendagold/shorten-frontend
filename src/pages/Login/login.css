@@ -1,0 +1,118 @@
+@import '../../App.css';
+
+.main-form {
+  color: white;
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: linear-gradient(to right, #267871, #136a8a);
+  margin: auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3),
+    0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 50px;
+  margin-top: 100px;
+}
+.head {
+  display: block;
+  text-align: center;
+}
+.head .company {
+  font-size: 2.2em;
+}
+.msg {
+  text-align: center;
+}
+.forrm input[type='text'].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+.main-form .forrm .text::placeholder {
+  color: #d3d3d3;
+}
+.main-form .forrm input[type='password'].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.forrm .password::placeholder {
+  color: #d3d3d3;
+}
+.forrm .btn-login {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+.forrm .btn-login:hover {
+  background: white;
+  color: dimgray;
+  transition: 0.5s;
+}
+.main-form .forgot {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+
+.message a {
+  color: var(--dark);
+  text-decoration: none;
+}
+.message a:hover {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.form-btnn {
+  background-color: var(--clr-dark) !important;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.main-form .forgot-pass {
+  text-align: right !important;
+  margin-bottom: 6px;
+  color: var(--clr-light);
+}
+
+.forgot-pass:hover {
+  text-decoration: none !important;
+  color: var(--clr-dark) !important;
+}
+
+.error {
+  color: red;
+}
+
+.custom-eye {
+  position: absolute;
+  left: auto;
+  right: 20px;
+  text-indent: 32px;
+  top: 13px;
+  color: var(--clr-dark);
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+  .form-btnn {
+    margin-bottom: 5px;
+  }
+  .custom-eye {
+    right: 10px;
+    top: 11px;
+  }
+}

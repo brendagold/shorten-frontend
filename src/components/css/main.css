@@ -1,0 +1,90 @@
+@import '../../App.css';
+
+.hero .row .col-md-12 {
+  padding: 9.3vmin 4vmin;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.hero .row .col-md-12 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  font-family: var(--Rubik);
+  color: var(--clr-light);
+}
+
+.hero .row .col-md-5 img {
+  width: 90%;
+}
+
+.hero .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+.hero .container .col-md-7 h1 {
+  padding: 0.1em 0em;
+  font-size: 6vmin;
+  font-weight: bold;
+}
+
+.hero .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.hero .container .col-md-7 button {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.hero .btn-light {
+  background-color: var(--clr-accent);
+  font-weight: bold;
+  border-radius: 30px;
+}
+.hero .btn-light a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .hero .row .col-md-5 img {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  div .col-md-7 .col-sm-12 {
+    margin: 0 !important;
+  }
+
+  hero .row .col-md-5 img {
+    padding-top: 0;
+  }
+
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+
+  .fa-3x {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .section-4 .card {
+    width: 18rem;
+  }
+
+  .section-4 .carousel-inner {
+    margin-left: -14vmin;
+  }
+
+  .fa-3x {
+    font-size: 50%;
+  }
+}
